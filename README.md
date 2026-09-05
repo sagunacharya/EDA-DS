@@ -41,24 +41,6 @@ The dataset is automatically retrieved at notebook runtime with `kagglehub`. The
 
 No deep learning, web application, API service, or unnecessary ML model is included.
 
-## Quick Start — Google Colab
-
-Open `notebooks/AI_Job_Market_EDA.ipynb` in Google Colab and use:
-
-**Runtime → Run all**
-
-The notebook installs missing Python packages, downloads the Kaggle dataset automatically, performs the EDA, and saves the important charts to:
-
-```text
-visuals/important_charts/
-```
-
-## Local Setup
-
-```bash
-pip install -r requirements.txt
-jupyter notebook notebooks/AI_Job_Market_EDA.ipynb
-```
 
 ## Important Interpretation Notes
 
